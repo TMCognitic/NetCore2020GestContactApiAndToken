@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model.Global.Api.Interfaces\Models.Global.Api.Interfaces.csproj" />
+    <ProjectReference Include="..\Models.Common.Intefaces\Models.Common.Intefaces.csproj" />
+    <ProjectReference Include="..\Models.Global.Entities\Models.Global.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

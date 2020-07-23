@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Model.Global.Interfaces\Model.Global.Interfaces.csproj" />
+    <ProjectReference Include="..\Models.Common.Intefaces\Models.Common.Intefaces.csproj" />
+    <ProjectReference Include="..\Models.Global.Entities\Models.Global.Entities.csproj" />
+    <ProjectReference Include="..\Tools.Databases\Tools.Databases.csproj" />
+  </ItemGroup>
+
+</Project>
